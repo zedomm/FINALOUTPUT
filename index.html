@@ -11,26 +11,27 @@
 <body>
     <div class="overlay"></div>
 
-    <header class="header">
+    <header class="header reveal">
         <img src="NTC_Logo.png" alt="NTC Logo" class="logo" />
         <h2>National Teachers College</h2>
     </header>
 
     <main class="main">
-        <div class="text-content">
+        <div class="text-content reveal">
             <h1>EASTWOOD CITY</h1>
             <p>Birth and boom of the IT BPO in the Philippines</p>
         </div>
 
+        <!-- Give each image its own reveal class for individual animation -->
         <div class="image-gallery">
-            <img src="image.jpg" alt="Eastwood 1" class="img-large" />
-            <img src="image2.jpg" alt="Eastwood 2" class="img-medium" />
-            <img src="image1.jpg" alt="Eastwood 3" class="img-small" />
+            <img src="image.jpg" alt="Eastwood 1" class="img-large reveal" />
+            <img src="image2.jpg" alt="Eastwood 2" class="img-medium reveal" />
+            <img src="image1.jpg" alt="Eastwood 3" class="img-small reveal" />
         </div>
     </main>
 
     <section class="info-section">
-        <div class="info-card">
+        <div class="info-card reveal">
             <h3>Introduction:</h3>
             <p>
                 Eastwood City, located in Libis, Quezon City, stands as one of the Philippines’ first and most
@@ -44,7 +45,7 @@
         </div>
 
         <div class="info-row">
-            <div class="info-card">
+            <div class="info-card reveal">
                 <h3>Chronological Historical Development</h3>
                 <p>
                     Eastwood City began in 1997, when Megaworld Corporation envisioned a “city within a city,” a
@@ -60,7 +61,7 @@
                 </p>
             </div>
 
-            <div class="info-card">
+            <div class="info-card reveal">
                 <h3>Cultural and Historical Significance</h3>
                 <p>
                     Eastwood City’s historical importance lies in being a pioneer of digital progress in the
@@ -68,7 +69,7 @@
                     IT-BPO destinations. Beyond its economic role, Eastwood also became a cultural landmark, hosting
                     events like the annual New Year’s Eve Countdown, art fairs, concerts, and pet-friendly festivals
                     that bring people from different walks of life together. It represents the evolving Filipino
-                    identity. Modern yet community-oriented, tech-driven yet culturally grounded. Eastwood has become a
+                    identity—modern yet community-oriented, tech-driven yet culturally grounded. Eastwood has become a
                     living example of how urban development can merge technology, business, and lifestyle while still
                     reflecting Filipino values of connection and celebration.
                 </p>
@@ -78,7 +79,7 @@
 
     <section class="conclusion-section">
         <div class="info-row">
-            <div class="info-card">
+            <div class="info-card reveal">
                 <h3>Conclusion and Reflection</h3>
                 <p>
                     Eastwood City IT Zone stands as a testament to the Philippines’ growth in the digital era. From a
@@ -90,7 +91,7 @@
                 </p>
             </div>
 
-            <div class="info-card">
+            <div class="info-card reveal">
                 <h3>References</h3>
                 <p>
                     “Eastwood City.” Megaworld REIT | MREIT | PH’s Most Premium Offices,
@@ -105,10 +106,13 @@
             </div>
         </div>
 
-        <footer class="footer">
+        <!-- Footer included in reveal animation -->
+        <footer class="footer reveal">
             <p>DIAZ – DUCUSIN – MALAPAHO – MENDOZA – TALATAYOD</p>
         </footer>
     </section>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
